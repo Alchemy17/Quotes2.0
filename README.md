@@ -40,4 +40,4 @@ To get started with this project on your local computer, clone the project onto 
 
 MIT License
 
-Copyright (c) 2018 Adebayo Abdulrahman Mohamed
+Copyright (c) 2018 Abdulrahman Mohamed
