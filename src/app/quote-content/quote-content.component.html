@@ -1,0 +1,9 @@
+<p>{{quote.description}}</p>
+<p><em> {{quote.completeDate|dateCount}} days ago</em></p>
+<button type="button" class="btn btn-default btn-sm" (click)="upVote()">
+  <span class="glyphicon glyphicon-thumbs-up"></span> Upvote({{upVotes}})
+</button>
+<button type="button" class="btn btn-default btn-sm" (click)="downVote()">
+  <span class="glyphicon glyphicon-thumbs-down"></span> Downvote({{downVotes}})
+</button>
+<button class="btn btn-danger btn-sm" (click) = 'quoteDelete(true)'> Delete Quote </button>
